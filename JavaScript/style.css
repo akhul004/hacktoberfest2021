@@ -1,0 +1,125 @@
+textarea {
+    min-height: 15em !important;
+  }
+  [data-button] {
+    display: block;
+    font-size: 16pt !important;
+    width: auto !important;
+  }
+  a {
+    text-shadow: none;
+  }
+  table,
+  table *,
+  table *:before,
+  table *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+  }
+  /* Table Reset */
+  table {
+    display: table;
+    width: auto;
+    margin: 1em 0 !important;
+  }
+  table caption {
+    display: table-caption;
+    width: auto;
+  }
+  table thead {
+    display: table-header-group;
+    width: auto;
+  }
+  table tbody {
+    display: table-row-group;
+    width: auto;
+  }
+  table tfoot {
+    display: table-footer-group;
+    width: auto;
+  }
+  table tr {
+    display: table-row;
+    width: auto;
+  }
+  table th,
+  table td {
+    display: table-cell;
+    width: auto;
+  }
+  /* Default Table Style */
+  [data-theme*=default] {
+    color: #333;
+    background: white;
+    border: 1px solid grey !important;
+    font-size: 12pt;
+    border-collapse: collapse !important;
+  }
+  [data-theme*=default] thead th,
+  [data-theme*=default] tfoot th {
+    color: #777;
+    background: rgba(0,0,0,.1);
+  }
+  [data-theme*=default] caption {
+    padding:.5em;
+  }
+  [data-theme*=default] th,
+  [data-theme*=default] td {
+    padding: .5em;
+    border: 1px solid lightgrey;
+  }
+  [data-theme*=default] thead {
+    display: table-header-group;
+  }
+  [data-theme*=default] tfoot {
+    display: table-footer-group;
+  }
+  [data-theme*=default] td:before {
+    display: none;
+  }
+ 
+  textarea,
+  .dataTables_wrapper input,
+  .dataTables_wrapper select{
+    margin: 0;
+    margin-bottom: .5em !important;
+    padding: 5px 8px;
+    width: 100% !important;
+    height: 40px;
+    outline: none !important;
+    border: 1px solid rgba(90, 90, 90, 0.7);
+    border-radius: 2px;
+    background: rgba(255,255,255,.5);
+    box-shadow: rgba(0,0,0,.15) 0 1px 0;
+    color: rgba(0,0,0,.7);
+    font-weight: 400;
+    font-size: 12pt;
+    transition: all .2s ease-in-out;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+  }
+  .dataTables_wrapper select {
+    color: rgba(0,0,0,.5);
+    background: rgba(255,255,255,.5);
+    padding-right: 1.5em;
+    background-image: none;
+    background-repeat: no-repeat !important;
+    background-position: calc(100% - .5em) 50% ;
+    background-size: 12px ;
+    text-indent: auto;
+    text-overflow: '';
+  }
+  .dataTables_wrapper select:active {
+    background: none;
+  }
+  .dataTables_wrapper select::-ms-expand {
+    display: none;
+  }
+  
